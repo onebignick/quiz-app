@@ -11,6 +11,7 @@ export const Results = (props) => {
 
     return(
         <div>
+            <h1>countries named</h1>
             {countries.map(country => (
                 <p key={country.id}>{country.id}. {country.countryName}</p>
             ))}

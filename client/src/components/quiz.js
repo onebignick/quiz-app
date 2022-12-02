@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from 'axios';
-
+import './quiz.scss'
 export const Quiz = () => {
     const [countryInput, setCountryInput] = useState('');
 
@@ -8,7 +8,7 @@ export const Quiz = () => {
         event.preventDefault();
         
         const newCountry = {
-            "countryName": countryInput,
+            "countryName": countryInput.toLowerCase(),
         }
         
         axios
@@ -17,6 +17,7 @@ export const Quiz = () => {
             .catch(err => {
                 console.error(err);
             });
+        document.getElementById('quiz-user-input').value = ''
     };
 
     const handleChange = (event) => {
@@ -26,9 +27,11 @@ export const Quiz = () => {
 
     return(
         <div>
+            <h1>How many countries can you name?</h1>
             <form className="quiz-form" onSubmit={handleSubmit}>
                 <input 
                     className="quiz-input"
+                    id="quiz-user-input"
                     name="countryName"
                     type="text"
                     placeholder="Enter Country"
@@ -37,7 +40,7 @@ export const Quiz = () => {
                     onChange={handleChange}
                     required
                 />
-                <input type="submit" value="Submit"/>
+                <input type="submit" value="Submit" id="submit-button"/>
             </form>
         </div>
     );

@@ -1,8 +1,54 @@
-
-{
-    "countryID": 1,
-    "countryName": ["Afghanistan"]
-}
-
+[
+    {
+        "input": "afghanistan",
+        "displayName": "Afghanistan",
+        "continent": "Asia"
+    },
+    {
+        "input": "albania",
+        "displayName": "Albania",
+        "continent": "Europe"
+    },
+    {
+        "input": "algeria",
+        "displayName": "Algeria",
+        "continent": "Africa"
+    },
+    {
+        "input": "andorra",
+        "displayName": "Andorra",
+        "continent": "Europe"
+    },
+    {
+        "input": "angola",
+        "displayName": "Angola",
+        "continent": "Africa"
+    },
+    {
+        "input": "antigua and barbuda",
+        "displayName": "Antigua and barbuda",
+        "continent": "North America"
+    },
+    {
+        "input": "argentina",
+        "displayName": "Argentina",
+        "continent": "South America"
+    },
+    {
+        "input": "australia",
+        "displayName": "Australia",
+        "continent": "Australia"
+    },
+    {
+        "input": "austria",
+        "displayName": "Austria",
+        "continent": "Europe"
+    },
+    {
+        "input": "azerbaijan",
+        "displayName": "Azerbaijan",
+        "continent": "Asia"
+    }
+]
 
 
