@@ -15,6 +15,14 @@ export const Quiz = () => {
             .post('/input', newCountry)
             .then(() => console.log('countryInput Created'))
             .catch(err => {
+                if (err.response) {
+                    console.log(err.response.data)
+                    const quizInput = document.getElementById('quiz-user-input');
+                    quizInput.classList.add('error')
+                    setTimeout(()=>{
+                        quizInput.classList.remove('error');
+                    }, 300);
+                }
                 console.error(err);
             });
         document.getElementById('quiz-user-input').value = ''

@@ -26,7 +26,7 @@
     },
     {
         "input": "antigua and barbuda",
-        "displayName": "Antigua and barbuda",
+        "displayName": "Antigua and Barbuda",
         "continent": "North America"
     },
     {
@@ -47,6 +47,56 @@
     {
         "input": "azerbaijan",
         "displayName": "Azerbaijan",
+        "continent": "Asia"
+    },
+    {
+        "input": "bahamas",
+        "displayName": "The Bahamas",
+        "continent": "North America"
+    },
+    {
+        "input": "the bahamas",
+        "displayName": "The Bahamas",
+        "continent": "North America"
+    },
+    {
+        "input": "bahrain",
+        "displayName": "Bahrain",
+        "continent": "Asia"
+    },
+    {
+        "input": "bangladesh",
+        "displayName": "Bangladesh",
+        "continent": "Asia"
+    },
+    {
+        "input": "barbados",
+        "displayName": "Barbados",
+        "continent": "North America"
+    },
+    {
+        "input": "belarus",
+        "displayName": "Belarus",
+        "continent": "Europe"
+    },
+    {
+        "input": "belgium",
+        "displayName": "Belgium",
+        "continent": "Europe"
+    },
+    {
+        "input": "belize",
+        "displayName": "Belize",
+        "continent": "North America"
+    },
+    {
+        "input": "benin",
+        "displayName": "Benin",
+        "continent": "Africa"
+    },
+    {
+        "input": "bhutan",
+        "displayName": "Bhutan",
         "continent": "Asia"
     }
 ]

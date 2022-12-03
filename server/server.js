@@ -8,7 +8,6 @@ const port = 5000;
 // Connecting to MongoDb
 const { MongoClient } = require("mongodb");
 uri = process.env.URI;
-console.log(uri)
 
 const client = new MongoClient(uri);
 
@@ -23,7 +22,7 @@ async function findCountry(client, countryName) {
         if (result) {
             return(result)
         } else {
-            console.log("No data")
+            console.log('Invalid answer')
         }
 }
 
@@ -51,12 +50,18 @@ app.post('/input', async (request, response) => {
     const userInput = request.body.countryName.toLowerCase()
     const result = await findCountry(client, userInput);
 
-    const newCountry = {
+    if (result) {
+        const newCountry = {
         "id": countries.length + 1,
         "countryName": result.displayName
     }
     countries.push(newCountry);
-    console.log(result.displayName)
+    console.log(result.displayName)   
+    } else {
+        response.status(401).send('Invalid answer')
+    }
+
+
 });
 
 app.listen(port, ()=> {
