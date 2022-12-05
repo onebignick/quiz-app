@@ -27,10 +27,7 @@ async function findCountry(client, countryName) {
 }
 
 
-const countries = [{
-    "id": 1,
-    "countryName": "United States of America"
-}]
+var countries = []
 
 
 app.use(
@@ -49,20 +46,17 @@ app.get('/api', (request, response) => {
 app.post('/input', async (request, response) => {
     const userInput = request.body.countryName.toLowerCase()
     const result = await findCountry(client, userInput);
-
-    if (result) {
-        const newCountry = {
-        "id": countries.length + 1,
-        "countryName": result.displayName
-    }
-    countries.push(newCountry);
-    console.log(result.displayName)   
+    console.log(result);
+    if (result && countries.includes(result.displayName)===false) {
+        countries.push(result.displayName);
     } else {
         response.status(401).send('Invalid answer')
     }
-
-
 });
+
+app.post('/clear', async (request, response) => {
+    countries = []
+})
 
 app.listen(port, ()=> {
     console.log(`Express conected to: http://localhost:${port}`)

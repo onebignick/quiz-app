@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from 'axios';
 import './quiz.scss'
+
 export const Quiz = () => {
     const [countryInput, setCountryInput] = useState('');
 
@@ -33,6 +34,13 @@ export const Quiz = () => {
         setCountryInput(countryName);
     };
 
+    const handleClear = (event) => {
+        axios
+            .post('/clear')
+            .then(()=>console.log('Cleared countries'))
+            .catch(err=>err.response())
+    }
+
     return(
         <div>
             <h1>How many countries can you name?</h1>
@@ -50,6 +58,8 @@ export const Quiz = () => {
                 />
                 <input type="submit" value="Submit" id="submit-button"/>
             </form>
+            <button>Finish</button>
+            <button onClick={handleClear}>Clear</button>
         </div>
     );
 }

@@ -35,9 +35,14 @@
         "continent": "South America"
     },
     {
+        "input": "armenia",
+        "displayName": "Armenia",
+        "continent": "Asia"
+    },
+    {
         "input": "australia",
         "displayName": "Australia",
-        "continent": "Australia"
+        "continent": "Ocenania"
     },
     {
         "input": "austria",
@@ -98,6 +103,406 @@
         "input": "bhutan",
         "displayName": "Bhutan",
         "continent": "Asia"
+    },
+    {
+        "input": "bolivia",
+        "displayName": "Bolivia",
+        "continent": "South America"
+    },
+    {
+        "input": "bosnia and herzegovina",
+        "displayName": "Bosnia and Herzegovina",
+        "continent": "Europe"
+    },
+    {
+        "input": "brazil",
+        "displayName": "Brazil",
+        "continent": "South America"
+    },
+    {
+        "input": "brunei",
+        "displayName": "Brunei Darussalam",
+        "continent": "Asia"
+    },
+    {
+        "input": "brunei darussalam",
+        "displayName": "Brunei Darussalam",
+        "continent": "Asia"
+    },
+    {
+        "input": "bulgaria",
+        "displayName": "Bulgaria",
+        "continent": "Europe"
+    },
+    {
+        "input": "burkina faso",
+        "displayName": "Burkina Faso",
+        "continent": "Africa"
+    },
+    {
+        "input": "burundi",
+        "displayName": "Burundi",
+        "continent": "Africa"
+    },
+    {
+        "input": "côte d'ivoire",
+        "displayName": "Côte d'Ivoire",
+        "continent": "Africa"
+    },
+    {
+        "input": "cote d'ivoire",
+        "displayName": "Côte d'Ivoire",
+        "continent": "Africa"
+    },
+    {
+        "input": "côte divoire",
+        "displayName": "Côte d'Ivoire",
+        "continent": "Africa"
+    },
+    {
+        "input": "cote divoire",
+        "displayName": "Côte d'Ivoire",
+        "continent": "Africa"
+    },
+    {
+        "input": "cabo verde",
+        "displayName": "Cabo Verde",
+        "continent": "Africa"
+    },
+    {
+        "input": "cape verde",
+        "displayName": "Cabo Verde",
+        "continent": "Africa"
+    },
+    {
+        "input": "cambodia",
+        "displayName": "Cambodia",
+        "continent": "Asia"
+    },
+    {
+        "input": "cameroon",
+        "displayName": "Cameroon",
+        "continent": "Africa"
+    },
+    {
+        "input": "canada",
+        "displayName": "Canada",
+        "continent": "North America"
+    },
+    {
+        "input": "central african republic",
+        "displayName": "Central African Republic",
+        "continent": "Africa"
+    },
+    {
+        "input": "chad",
+        "displayName": "Chad",
+        "continent": "Africa"
+    },
+    {
+        "input": "chile",
+        "displayName": "Chile",
+        "continent": "South America"
+    },
+    {
+        "input": "china",
+        "displayName": "China",
+        "continent": "Asia"
+    },
+    {
+        "input": "colombia",
+        "displayName": "Colombia",
+        "continent": "South America"
+    },
+    {
+        "input": "comoros",
+        "displayName": "Comoros",
+        "continent": "Africa"
+    },
+    {
+        "input": "congo-brazzaville",
+        "displayName": "The Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "congo brazzaville",
+        "displayName": "The Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "republic of the congo",
+        "displayName": "The Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "the republic of the congo",
+        "displayName": "The Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "costa rica",
+        "displayName": "Costa Rica",
+        "continent": "North America"
+    },
+    {
+        "input": "croatia",
+        "displayName": "Croatia",
+        "continent": "Europe"
+    },
+    {
+        "input": "cuba",
+        "displayName": "Cuba",
+        "continent": "North America"
+    },
+    {
+        "input": "cyprus",
+        "displayName": "Cyprus",
+        "continent": "Europe"
+    },
+    {
+        "input": "czechia",
+        "displayName": "Czechia",
+        "continent": "Europe"
+    },
+    {
+        "input": "czech republic",
+        "displayName": "Czechia",
+        "continent": "Europe"
+    },
+    {
+        "input": "democratic republic of the congo",
+        "displayName": "The Democratic Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "the democratic republic of the congo",
+        "displayName": "The Democratic Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "congo-kinshasa",
+        "displayName": "The Democratic Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "congo kinshasa",
+        "displayName": "The Democratic Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "drc",
+        "displayName": "The Democratic Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "input": "denmark",
+        "displayName": "Denmark",
+        "continent": "Europe"
+    },
+    {
+        "input": "djibouti",
+        "displayName": "Djibouti",
+        "continent": "Africa"
+    },
+    {
+        "input": "dominica",
+        "displayName": "Dominica",
+        "continent": "North America"
+    },
+    {
+        "input": "dominican republic",
+        "displayName": "Dominican Republic",
+        "continent": "North America"
+    },
+    {
+        "input": "ecuador",
+        "displayName": "Ecuador",
+        "continent": "South America"
+    },
+    {
+        "input": "egypt",
+        "displayName": "Egypt",
+        "continent": "Africa"
+    },
+    {
+        "input": "el salvador",
+        "displayName": "El Salvador",
+        "continent": "South America"
+    },
+    {
+        "input": "equatorial guinea",
+        "displayName": "Equatorial Guinea",
+        "continent": "Africa"
+    },
+    {
+        "input": "eritrea",
+        "displayName": "Eritrea",
+        "continent": "Africa"
+    },
+    {
+        "input": "estonia",
+        "displayName": "Estonia",
+        "continent": "Europe"
+    },
+    {
+        "input": "eswatini",
+        "displayName": "Eswatini",
+        "continent": "Africa"
+    },
+    {
+        "input": "fiji",
+        "displayName": "Fiji",
+        "continent": "Ocenania"
+    },
+    {
+        "input": "finland",
+        "displayName": "Finland",
+        "continent": "Europe"
+    },
+    {
+        "input": "france",
+        "displayName": "France",
+        "continent": "Europe"
+    },
+    {
+        "input": "gabon",
+        "displayName": "Gabon",
+        "continent": "Africa"
+    },
+    {
+        "input": "gambia",
+        "displayName": "The Gambia",
+        "continent": "Africa"
+    },
+    {
+        "input": "the gambia",
+        "displayName": "The Gambia",
+        "continent": "Africa"
+    },
+    {
+        "input": "georgia",
+        "displayName": "Georgia",
+        "continent": "Asia"
+    },
+    {
+        "input": "germany",
+        "displayName": "Germany",
+        "continent": "Europe"
+    },
+    {
+        "input": "ghana",
+        "displayName": "Ghana",
+        "continent": "Africa"
+    },
+    {
+        "input": "greece",
+        "displayName": "Greece",
+        "continent": "Europe"
+    },
+    {
+        "input": "grenada",
+        "displayName": "Grenada",
+        "continent": "South America"
+    },
+    {
+        "input": "guatemala",
+        "displayName": "Guatemala",
+        "continent": "North America"
+    },
+    {
+        "input": "guinea",
+        "displayName": "Guinea",
+        "continent": "Africa"
+    },
+    {
+        "input": "guinea-bissau",
+        "displayName": "Guinea-Bissau",
+        "continent": "Africa"
+    },
+    {
+        "input": "guinea bissau",
+        "displayName": "Guinea-Bissau",
+        "continent": "Africa"
+    },
+    {
+        "input": "guyana",
+        "displayName": "Guyana",
+        "continent": "South America"
+    },
+    {
+        "input": "haiti",
+        "displayName": "Haiti",
+        "continent": "North America"
+    },
+    {
+        "input": "holy see",
+        "displayName": "Vatican City State",
+        "continent": "Europe"
+    },
+    {
+        "input": " the holy see",
+        "displayName": "Vatican City State",
+        "continent": "Europe"
+    },
+    {
+        "input": "vatican city",
+        "displayName": "Vatican City State",
+        "continent": "Africa"
+    },
+    {
+        "input": "vatican city state",
+        "displayName": "Vatcian City State",
+        "continent": "Africa"
+    },
+    {
+        "input": "honduras",
+        "displayName": "Honduras",
+        "continent": "North America"
+    },
+    {
+        "input": "hungary",
+        "displayName": "Hungary",
+        "continent": "Europe"
+    },
+    {
+        "input": "iceland",
+        "displayName": "Iceland",
+        "continent": "Europe"
+    },
+    {
+        "input": "india",
+        "displayName": "India",
+        "continent": "Asia"
+    },
+    {
+        "input": "indonesia",
+        "displayName": "Indonesia",
+        "continent": "Asia"
+    },
+    {
+        "input": "iran",
+        "displayName": "Iran",
+        "continent": "Iran"
+    },
+    {
+        "input": "iraq",
+        "displayName": "Iraq",
+        "continent": "Asia"
+    },
+    {
+        "input": "ireland",
+        "displayName": "Ireland",
+        "continent": "Europe"
+    },
+    {
+        "input": "israel",
+        "displayName": "Israel",
+        "continent": "Asia"
+    },
+    {
+        "input": "italy",
+        "displayName": "Italy",
+        "continent": "Europe"
     }
 ]
 
