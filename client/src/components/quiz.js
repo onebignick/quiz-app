@@ -4,6 +4,7 @@ import './quiz.scss'
 
 export const Quiz = () => {
     const [countryInput, setCountryInput] = useState('');
+    const [quizFinish, setQuizFinish] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -34,32 +35,48 @@ export const Quiz = () => {
         setCountryInput(countryName);
     };
 
-    const handleClear = (event) => {
+    const handleClear = () => {
         axios
-            .post('/clear')
+            .put('/clear')
             .then(()=>console.log('Cleared countries'))
             .catch(err=>err.response())
+    };
+
+    const handleFinish = () => {
+        setQuizFinish(true);
     }
 
-    return(
-        <div>
-            <h1>How many countries can you name?</h1>
-            <form className="quiz-form" onSubmit={handleSubmit}>
-                <input 
-                    className="quiz-input"
-                    id="quiz-user-input"
-                    name="countryName"
-                    type="text"
-                    placeholder="Enter Country"
-                    autoComplete="off"
-                    value={countryInput}
-                    onChange={handleChange}
-                    required
-                />
-                <input type="submit" value="Submit" id="submit-button"/>
-            </form>
-            <button>Finish</button>
-            <button onClick={handleClear}>Clear</button>
-        </div>
-    );
+    const newGame = () => {
+        setQuizFinish(false);
+        handleClear();
+    }
+
+    if (quizFinish === false) {
+        return(
+            <div>
+                <h1>How many countries can you name?</h1>
+                <form className="quiz-form" id="quiz-form" onSubmit={handleSubmit}>
+                    <input 
+                        className="quiz-input"
+                        id="quiz-user-input"
+                        name="countryName"
+                        type="text"
+                        placeholder="Enter Country"
+                        autoComplete="off"
+                        value={countryInput}
+                        onChange={handleChange}
+                        required
+                    />
+                    <input type="submit" value="Submit" id="submit-button"/>
+                </form>
+                <button onClick={handleFinish}>Finish</button>
+                <button onClick={handleClear}>Clear</button>
+            </div>
+        );}
+    else {
+        return(
+            <div>
+                <button onClick={newGame}>New Game</button>
+            </div>
+        );}
 }

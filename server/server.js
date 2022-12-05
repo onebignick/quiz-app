@@ -54,7 +54,7 @@ app.post('/input', async (request, response) => {
     }
 });
 
-app.post('/clear', async (request, response) => {
+app.put('/clear', async (request, response) => {
     countries = []
 })
 
